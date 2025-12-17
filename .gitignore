@@ -4,7 +4,11 @@ node_modules/
 .DS_Store
 
 # Documentation (keep locally, not in repo)
-*.md
+!README.md
+CLAUDE.md
+PIPELINE_DOCUMENTATION.md
+TECHNICAL_REPORT_NITISH.md
+BRENDAN_TIMELINE.md
 *.docx
 
 # Build artifacts
