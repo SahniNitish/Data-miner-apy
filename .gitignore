@@ -3,6 +3,14 @@ node_modules/
 .env
 .DS_Store
 
+# Documentation (keep locally, not in repo)
+*.md
+*.docx
+
+# Build artifacts
+.aws-sam/
+
 # Large CSV files (download from S3 instead)
+*.csv
 exports/
-updater/static/*.csv
+updater/static/
